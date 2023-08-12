@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* this is the root color  */
+
+:root {
+  --theme-color: 255, 141, 47;
+  --light-theme-color: 255, 240, 227;
+  --white: 255, 255, 255;
+  --black: 0, 0, 0;
+  --dark-text: 65, 68, 73;
+  --light-text: 141, 143, 145;
+  --success-color: 39, 125, 42;
+  --error-color: 245, 58, 58;
+  --accent-color: 58, 109, 229;
+  --rate-color: 255, 185, 49;
+  --box-bg: 245, 245, 245;
+  --dashed-line: 237, 237, 237;
+}
+
+@font-face {
+  font-family: 'Metropolis-regular';
+  src: url('./assets/fonts/Metropolis-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-bold';
+  src: url('./assets/fonts/Metropolis-Bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.html{
+  font-family: 'Metropolis-bold' ;
+  font-weight: bold;
+}
