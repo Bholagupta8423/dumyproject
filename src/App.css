@@ -1,3 +1,5 @@
+import
+
 .App {
   text-align: center;
 }
@@ -52,24 +54,4 @@
   --rate-color: 255, 185, 49;
   --box-bg: 245, 245, 245;
   --dashed-line: 237, 237, 237;
-}
-
-@font-face {
-  font-family: 'Metropolis-regular';
-  src: url('./assets/fonts/Metropolis-Regular.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Metropolis-bold';
-  src: url('./assets/fonts/Metropolis-Bold.otf') format('otf');
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-.html{
-  font-family: 'Metropolis-bold' ;
-  font-weight: bold;
 }

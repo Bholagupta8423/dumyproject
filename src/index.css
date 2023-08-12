@@ -1,11 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@font-face {
+  font-family: 'Metropolis-regular';
+  src: url('./assets/fonts/Metropolis-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'Metropolis-light';
+  src: url('./assets/fonts/Metropolis-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metropolis-thin';
+  src: url('./assets/fonts/Metropolis-Thin.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metropolis-medium';
+  src: url('./assets/fonts/Metropolis-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-bold';
+  src: url('./assets/fonts/Metropolis-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metropolis-semibold';
+  src: url('./assets/fonts/Metropolis-SemiBold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Metropolis-extrabold';
+  src: url('./assets/fonts/Metropolis-ExtraBold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.body{
+  font-family: 'Metropolis-bold' ;
+  font-weight: bold;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

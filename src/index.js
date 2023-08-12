@@ -1,3 +1,5 @@
+import  "./assets/fonts/Metropolis-Regular.otf"
+import  "./assets/fonts/Metropolis-Bold.otf"
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
